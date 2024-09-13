@@ -11,13 +11,13 @@ A Python module that provides the `JiraApiFetcher` class, which fetches data fro
 
 The responses of the Jira API can typically be handled by one of the three methods:
 
-`fetch_array`
+fetch_array
 : Fetches data from a Jira API endpoint as an array and raises an exception if the response is not successful.
 
-`fetch_issues`
+fetch_issues
 : Fetches Jira issues, optionally with specified fields and JQL, and supports pagination.
 
-`fetch_paginated`
+fetch_paginated
 : Handles pagination while fetching data, aggregates results, and allows for additional parameters via a JSON string.
 
 See the provided docstring of the class for usage of the methods.
