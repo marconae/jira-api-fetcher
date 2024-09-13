@@ -1,0 +1,16 @@
+### Issue Changelog
+GET {{jiraServer}}/rest/api/3/issue/SOME-ISSUE-123/changelog
+Authorization: Basic {{user}} {{token}}
+Accept: application/json
+
+### Search
+GET {{jiraServer}}/rest/api/2/search?
+    jql=ORDER BY created DESC
+    &fields=created,issuetype
+Authorization: Basic {{user}} {{token}}
+Accept: application/json
+
+### Fields
+GET {{jiraServer}}/rest/api/3/field
+Authorization: Basic {{user}} {{token}}
+Accept: application/json
